@@ -4,9 +4,9 @@
 
 Produce a program in Python programming language, which given read alignments (in BAM format with haplotype tags) and a set of variants (in phased VCF format) computes support for ALT and REF alleles across reads assigned to individual haplotypes.
 
-**Note that the use of GenAI coding assistants (GitHub Copilot, Claude Code, Codex, etc.) is both allowed and encouraged.**
+**Note that usage of GenAI coding assistants (Codex, Claude Code, etc) is both allowed and encouraged**.
 
-We expect candidates to spend no more than 2–3 hours on this task. Partial solutions are welcome and will be considered.
+We also encourage candidates to **spend ~2 hours on this task**. Partial solutions are welcome and will be considered.
 
 ## Inputs & assumptions
 
