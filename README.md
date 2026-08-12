@@ -22,6 +22,12 @@ Produce a TSV file with rows corresponding to SNVs and the following 6 required 
 * `pos`– position on chromosome
 * `h<H>_<A>` with `H` in {1,2} and `A` in {'ALT, 'REF'} (4 columns total) — number of primary alignments with HP==`H` supporting allele `A`
 
+## Optional tasks
+
+* Basic genotyping: when enough haplotagged alignments are available, identify whether each haplotype has the REF or ALT allele.
+* Across SNVs, count discrepant votes.
+* Plot a histogram of the discrepancy fractions.
+
 # Test data
 
 Test data archive contains read alignments (30x coverage) and variants for chr16:28000000-29000000 region of HG002 genome.
