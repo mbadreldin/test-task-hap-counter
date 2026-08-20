@@ -17,4 +17,6 @@ dist/
 
 # Local and generated files
 .DS_Store
-output/
+
+# allow output to be part of the repo for convenience
+# output/

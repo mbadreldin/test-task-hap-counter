@@ -1,0 +1,6 @@
+eligible_snvs=939
+untagged_ref_votes=875	untagged_alt_votes=2338	untagged_informative_votes=3213
+covered_cells=1831	covered_votes=22107	covered_discrepant_votes=2016	covered_discrepancy_fraction=0.091193
+called_cells=1575	called_votes=20844	called_discrepant_votes=1644	called_discrepancy_fraction=0.078872
+wrote_tsv=output/counts.tsv
+wrote_histogram=output/discrepancies.png
