@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hap-counter"
+version = "0.1.0"
+description = "Count haplotype-specific REF and ALT allele support from sequencing reads."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pysam>=0.22",
+]
+
+[project.scripts]
+hap-counter = "hap_counter.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "matplotlib>=3.8",
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+analysis = [
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+src = ["src", "tests"]

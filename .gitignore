@@ -1,0 +1,20 @@
+# IDE and local environments
+.idea/
+.venv/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Local and generated files
+.DS_Store
+output/
